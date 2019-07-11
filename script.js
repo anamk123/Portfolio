@@ -44,6 +44,12 @@ $(".linkicon").click(function() {
   window.open("https://www.linkedin.com/in/anam-khan-71ba87140","_blank")
 });
 
+$(".githubicon").click(function() {
+  
+  window.open("https://anamk123.github.io/Portfolio/","_blank")
+});
+
+
 // scroll to work
 
 $(".works").click(function() {
