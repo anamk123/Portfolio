@@ -1,0 +1,130 @@
+body {
+
+    font-family: 'Roboto Slab', serif;
+
+
+}
+
+.myInfo {
+    /* background: #000; */
+    height: 95vh;
+}
+
+.myInterests {
+    height: 25vh;
+    width: 100vh;
+    z-index: 999;
+    margin: auto;
+}
+
+.mySlides {
+    height: 50vh;
+    text-align: center;
+    /* display: none; */
+    width: 100%;
+    z-index: 999999;
+}
+
+.mySlides img {
+
+    width: 15%;
+}
+.aboutMe{
+    text-align: center;
+    height:25vh;
+}
+
+.mainButtons {
+
+text-align: center;
+height:20vh;
+}
+.down {
+    text-align: center;
+}
+.down img {
+    width: 3%;
+    text-align: center;
+}
+
+.downImg:hover{
+    transform: scale(1.5);
+}
+
+
+.work img {
+    
+    /* height: 50vh; */
+
+}
+
+
+.first {
+    padding: 5%;
+    
+}
+
+.first img {
+    height: 60vh;
+}
+
+.work {
+    padding: 5%;
+}
+
+a {
+    color: transparent;
+}
+.footer {
+    background: grey;
+    height: 20vh;
+}
+
+.works:hover {
+    transform: scale(1.1);
+} 
+
+.socialmediaicons{
+    width:100%;
+    text-align: center;
+  }
+
+  .socialIcon {
+      width: 55px;
+      padding: 5px;
+  }
+  .socialIcon:hover{
+      transform: scale(1.3);
+  }
+
+
+
+.skills {
+    padding: 20px;
+    
+}
+
+.footerText {
+    padding: 22px;
+}
+
+.skills img {
+    height: 30vh;
+}
+/* Fading animation (anam custom )*/
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .1} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .1} 
+    to {opacity: 1}
+  }
