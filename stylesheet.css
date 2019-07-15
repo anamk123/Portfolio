@@ -1,9 +1,15 @@
 body {
 
     font-family: 'Roboto Slab', serif;
-    color: #8080FF !important;
+    color: #963cbdff !important;
 
 
+}
+
+.btn {
+    background-color: #bdaa3c;
+    color:black;
+    border: #963cbdff;
 }
 
 .myInfo {
@@ -62,11 +68,7 @@ padding: 50px;
 }
 
 
-.work img {
-    
-    /* height: 50vh; */
 
-}
 
 .myWork {
     background-color: #141414;
