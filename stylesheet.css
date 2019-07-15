@@ -1,6 +1,7 @@
 body {
 
     font-family: 'Roboto Slab', serif;
+    color: #8080FF !important;
 
 
 }
@@ -8,36 +9,45 @@ body {
 .myInfo {
     /* background: #000; */
     height: 95vh;
+    background-image: url('images/darkbg.png');
+    /* background-repeat: no-repeat; */
+    
+}
+
+.navbar{
+    background-color: #141414 !important;
 }
 
 .myInterests {
     height: 25vh;
-    width: 100vh;
+    /* width: 100vh; */
     z-index: 999;
     margin: auto;
+    padding: 30px;
 }
 
 .mySlides {
-    height: 50vh;
+    /* height: 50vh; */
     text-align: center;
     /* display: none; */
-    width: 100%;
+    /* width: 100%; */
     z-index: 999999;
+    
 }
 
 .mySlides img {
 
-    width: 15%;
+    width: 150px;
 }
 .aboutMe{
     text-align: center;
-    height:25vh;
+    padding: 25px;
 }
 
 .mainButtons {
 
 text-align: center;
-height:20vh;
+padding: 50px;
 }
 .down {
     text-align: center;
@@ -58,6 +68,9 @@ height:20vh;
 
 }
 
+.myWork {
+    background-color: #141414;
+}
 
 .first {
     padding: 5%;
@@ -76,7 +89,7 @@ a {
     color: transparent;
 }
 .footer {
-    background: grey;
+    background: #141414;
     height: 20vh;
 }
 
@@ -110,6 +123,10 @@ a {
 
 .skills img {
     height: 30vh;
+}
+
+.skill-container {
+    background-image: url('images/darkbg.png');
 }
 /* Fading animation (anam custom )*/
 .fade {
