@@ -49,6 +49,11 @@ $(".githubicon").click(function() {
   window.open("https://anamk123.github.io/Portfolio/","_blank")
 });
 
+$(".resume").click(function() {
+  
+  window.open("docs/anam-cv.pdf","_blank")
+});
+
 
 // scroll to work
 
