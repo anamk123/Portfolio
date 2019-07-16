@@ -46,7 +46,7 @@ $(".linkicon").click(function() {
 
 $(".githubicon").click(function() {
   
-  window.open("https://anamk123.github.io/Portfolio/","_blank")
+  window.open("https://github.com/anamk123?tab=repositories","_blank")
 });
 
 $(".resume").click(function() {
