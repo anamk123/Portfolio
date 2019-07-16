@@ -54,6 +54,10 @@ $(".resume").click(function() {
   window.open("docs/anam-cv.pdf","_blank")
 });
 
+$(".hcDoc").click(function() {
+  
+  window.open("docs/hcDoc.pdf","_blank")
+});
 
 // scroll to work
 
