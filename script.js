@@ -51,7 +51,7 @@ $(".githubicon").click(function() {
 
 $(".resume").click(function() {
   
-  window.open("docs/anam-cv.pdf","_blank")
+  window.open("docs/Anam-cv.pdf","_blank")
 });
 
 $(".hcDoc").click(function() {
